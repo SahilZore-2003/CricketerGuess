@@ -53,3 +53,24 @@ i{
     align-items: center;
     justify-content: center;
 }
+
+.scorecard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(11, 139, 251);
+    color: white;
+    font-weight: bold;
+    
+    border-radius: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    text-align: center;
+    
+}
+.scorecard p{
+    padding-right: 150px;
+    font-size: 20px;
+}

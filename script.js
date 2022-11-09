@@ -1,6 +1,18 @@
 // 1st question 
+let score = document.getElementById('score');
 
 let list0 = document.getElementsByTagName('li')[0];
+
+// endGame.addEventListener("click",()=>{
+//   alert( `game over your score is ${finalScore}`)
+// })
+
+
+let scoreint = ()=>{
+  let finalScore = score.textContent++;
+  return finalScore;
+}
+
 
 list0.addEventListener("click",()=>{
   list0.classList.add('wrong')
@@ -8,7 +20,8 @@ list0.addEventListener("click",()=>{
 let list1 = document.getElementsByTagName('li')[1];
 
 list1.addEventListener("click",()=>{
-  list1.classList.add('right')
+  list1.classList.add('right');
+   scoreint();
 })
 let list2 = document.getElementsByTagName('li')[2];
 
@@ -28,6 +41,7 @@ let list4 = document.getElementsByTagName('li')[4];
 
 list4.addEventListener("click",()=>{
   list4.classList.add('right')
+  scoreint();
 })
 let list5 = document.getElementsByTagName('li')[5];
 
@@ -67,6 +81,7 @@ let list11 = document.getElementsByTagName('li')[11];
 
 list11.addEventListener("click",()=>{
   list11.classList.add('right')
+  scoreint();
 })
 
 
@@ -81,6 +96,7 @@ let list13 = document.getElementsByTagName('li')[13];
 
 list13.addEventListener("click",()=>{
   list13.classList.add('right')
+  scoreint();
 })
 let list14 = document.getElementsByTagName('li')[14];
 
@@ -114,6 +130,7 @@ let list19 = document.getElementsByTagName('li')[19];
 
 list19.addEventListener("click",()=>{
   list19.classList.add('right')
+  scoreint();
 })
 
 
@@ -123,6 +140,7 @@ let list20 = document.getElementsByTagName('li')[20];
 
 list20.addEventListener("click",()=>{
   list20.classList.add('right')
+  scoreint();
 })
 let list21 = document.getElementsByTagName('li')[21];
 
@@ -156,6 +174,7 @@ let list26 = document.getElementsByTagName('li')[26];
 
 list26.addEventListener("click",()=>{
   list26.classList.add('right')
+  scoreint();
 })
 let list27 = document.getElementsByTagName('li')[27];
 
@@ -183,6 +202,7 @@ let list31 = document.getElementsByTagName('li')[31];
 
 list31.addEventListener("click",()=>{
   list31.classList.add('right')
+  scoreint();
 })
 
 // qustion 9 
@@ -190,6 +210,7 @@ let list32 = document.getElementsByTagName('li')[32];
 
 list32.addEventListener("click",()=>{
   list32.classList.add('right')
+  scoreint();
 })
 let list33 = document.getElementsByTagName('li')[33];
 
@@ -222,6 +243,7 @@ let list38 = document.getElementsByTagName('li')[38];
 
 list38.addEventListener("click",()=>{
   list38.classList.add('right')
+  scoreint();
 })
 let list39 = document.getElementsByTagName('li')[39];
 
@@ -234,21 +256,26 @@ let list40 = document.getElementsByTagName('li')[40];
 
 list40.addEventListener("click",()=>{
   list40.classList.add('right')
+  scoreint();
+  
 })
 let list41 = document.getElementsByTagName('li')[41];
 
 list41.addEventListener("click",()=>{
   list41.classList.add('wrong')
+  
 })
 let list42 = document.getElementsByTagName('li')[42];
 
 list42.addEventListener("click",()=>{
   list42.classList.add('wrong')
+  
 })
 let list43 = document.getElementsByTagName('li')[43];
 
 list43.addEventListener("click",()=>{
   list43.classList.add('wrong')
+  
 })
 
 /*
